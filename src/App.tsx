@@ -2,33 +2,19 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <!-- Item Start --> */}
-      Photosnap
-      New!
-      Featured
-      Senior Frontend Developer
-      1d ago
-      Full Time
-      USA only
+      Photosnap New! Featured Senior Frontend Developer 1d ago Full Time USA
+      only
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
       Senior
       {/* <!-- Languages --> */}
-      HTML
-      CSS
-      JavaScript
+      HTML CSS JavaScript
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Manage
-      New!
-      Featured
-      Fullstack Developer
-      1d ago
-      Part Time
-      Remote
+      Manage New! Featured Fullstack Developer 1d ago Part Time Remote
       {/* <!-- Role --> */}
       Fullstack
       {/* <!-- Level --> */}
@@ -38,14 +24,8 @@ function App() {
       {/* <!-- Tools --> */}
       React
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Account
-      New!
-      Junior Frontend Developer
-      2d ago
-      Part Time
-      USA only
+      Account New! Junior Frontend Developer 2d ago Part Time USA only
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
@@ -53,48 +33,30 @@ function App() {
       {/* <!-- Languages --> */}
       JavaScript
       {/* <!-- Tools --> */}
-      React
-      Sass
+      React Sass
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      MyHome
-      Junior Frontend Developer
-      5d ago
-      Contract
-      USA only
+      MyHome Junior Frontend Developer 5d ago Contract USA only
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
       Junior
       {/* <!-- Languages --> */}
-      CSS
-      JavaScript
+      CSS JavaScript
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Loop Studios
-      Software Engineer
-      1w ago
-      Full Time
-      Worldwide
+      Loop Studios Software Engineer 1w ago Full Time Worldwide
       {/* <!-- Role --> */}
       Fullstack
       {/* <!-- Level --> */}
       Midweight
       {/* <!-- Languages --> */}
-      JavaScript
-      Ruby
+      JavaScript Ruby
       {/* <!-- Tools --> */}
       Sass
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      FaceIt
-      Junior Backend Developer
-      2w ago
-      Full Time
-      UK only
+      FaceIt Junior Backend Developer 2w ago Full Time UK only
       {/* <!-- Role --> */}
       Backend
       {/* <!-- Level --> */}
@@ -104,30 +66,19 @@ function App() {
       {/* <!-- Tools --> */}
       RoR
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Shortly
-      Junior Developer
-      2w ago
-      Full Time
-      Worldwide
+      Shortly Junior Developer 2w ago Full Time Worldwide
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
       Junior
       {/* <!-- Languages --> */}
-      HTML
-      JavaScript
+      HTML JavaScript
       {/* <!-- Tools --> */}
       Sass
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Insure
-      Junior Frontend Developer
-      2w ago
-      Full Time
-      USA only
+      Insure Junior Frontend Developer 2w ago Full Time USA only
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
@@ -135,33 +86,21 @@ function App() {
       {/* <!-- Languages --> */}
       JavaScript
       {/* <!-- Tools --> */}
-      Vue
-      Sass
+      Vue Sass
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      Eyecam Co.
-      Full Stack Engineer
-      3w ago
-      Full Time
-      Worldwide
+      Eyecam Co. Full Stack Engineer 3w ago Full Time Worldwide
       {/* <!-- Role --> */}
       Fullstack
       {/* <!-- Level --> */}
       Midweight
       {/* <!-- Languages --> */}
-      JavaScript
-      Python
+      JavaScript Python
       {/* <!-- Tools --> */}
       Django
       {/* <!-- Item End --> */}
-
       {/* <!-- Item Start --> */}
-      The Air Filter Company
-      Front-end Dev
-      1mo ago
-      Part Time
-      Worldwide
+      The Air Filter Company Front-end Dev 1mo ago Part Time Worldwide
       {/* <!-- Role --> */}
       Frontend
       {/* <!-- Level --> */}
@@ -169,13 +108,18 @@ function App() {
       {/* <!-- Languages --> */}
       JavaScript
       {/* <!-- Tools --> */}
-      React
-      Sass
+      React Sass
       {/* <!-- Item End --> */}
-      
-      <div className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>
-        Coded by <a href="https://www.abizmo.dev">Abián Izquierdo</a>.
+      <div className='attribution'>
+        Challenge by{' '}
+        <a
+          href='https://www.frontendmentor.io?ref=challenge'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Frontend Mentor
+        </a>
+        Coded by <a href='https://www.abizmo.dev'>Abián Izquierdo</a>.
       </div>
     </div>
   );
