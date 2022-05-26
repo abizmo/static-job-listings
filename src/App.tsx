@@ -1,4 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Footer = styled.footer`
+  font-size: 11px;
+  text-align: center;
+
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+`;
 
 function App() {
   return (
@@ -110,7 +120,7 @@ function App() {
       {/* <!-- Tools --> */}
       React Sass
       {/* <!-- Item End --> */}
-      <div className='attribution'>
+      <Footer>
         Challenge by{' '}
         <a
           href='https://www.frontendmentor.io?ref=challenge'
@@ -120,7 +130,7 @@ function App() {
           Frontend Mentor
         </a>
         Coded by <a href='https://www.abizmo.dev'>Abián Izquierdo</a>.
-      </div>
+      </Footer>
     </div>
   );
 }
