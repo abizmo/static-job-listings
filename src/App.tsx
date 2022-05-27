@@ -1,14 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Footer = styled.footer`
-  font-size: 11px;
-  text-align: center;
-
-  & a {
-    color: hsl(228, 45%, 44%);
-  }
-`;
+import { Footer } from './components';
 
 function App() {
   return (
@@ -120,17 +111,7 @@ function App() {
       {/* <!-- Tools --> */}
       React Sass
       {/* <!-- Item End --> */}
-      <Footer>
-        Challenge by{' '}
-        <a
-          href='https://www.frontendmentor.io?ref=challenge'
-          target='_blank'
-          rel='noreferrer'
-        >
-          Frontend Mentor
-        </a>
-        Coded by <a href='https://www.abizmo.dev'>Abián Izquierdo</a>.
-      </Footer>
+      <Footer />
     </div>
   );
 }

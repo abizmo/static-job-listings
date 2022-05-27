@@ -9,7 +9,12 @@ module.exports = {
       version: 'detect',
     },
   },
-  extends: ['plugin:react/recommended', 'standard', 'eslint-config-prettier'],
+  extends: [
+    'plugin:react/recommended',
+    'standard',
+    'eslint-config-prettier',
+    'plugin:storybook/recommended',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -20,4 +25,8 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {},
+  // add to avoid: 'JSX' is not defined.
+  globals: {
+    JSX: 'readonly',
+  },
 };
