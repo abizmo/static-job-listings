@@ -25,4 +25,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {},
+  globals: {
+    JSX: 'readonly',
+  },
 };
