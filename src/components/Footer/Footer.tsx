@@ -15,7 +15,7 @@ function Footer() {
     <Wrapper>
       Challenge by{' '}
       <a
-        href='https://www.frontendmentor.io?ref=challenge'
+        href='https://www.frontendmentor.io/?ref=challenge'
         target='_blank'
         rel='noreferrer'
       >
