@@ -25,6 +25,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'jest'],
   rules: {},
+  // add to avoid: 'JSX' is not defined.
   globals: {
     JSX: 'readonly',
   },
