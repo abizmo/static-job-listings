@@ -37,11 +37,23 @@ const Button = styled.button`
 `;
 
 interface TagProps {
-  added: boolean;
+  /**
+   * is filtered by this category
+   */
+  added?: boolean;
+  /**
+   * Tag content
+   */
   category: string;
+  /**
+   * Click handler
+   */
   onClick: () => void;
 }
 
+/**
+ * Primary UI component for user interaction
+ */
 function Tag({ added = false, category, onClick }: TagProps) {
   return (
     <Button onClick={onClick} type='button' className={added ? 'toRemove' : ''}>
