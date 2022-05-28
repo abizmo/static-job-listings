@@ -5,10 +5,10 @@ import { ReactComponent as IconRemove } from '../../assets/images/icon-remove.sv
 
 const Button = styled.button`
   align-items: center;
-  background-color: hsl(129, 47%, 86%);
+  background-color: ${({ theme }) => theme.colors[200]};
   border: none;
   border-radius: 4px;
-  color: green;
+  color: ${({ theme }) => theme.colors[500]};
   display: flex;
   font-weight: 700;
   overflow: hidden;
@@ -23,16 +23,16 @@ const Button = styled.button`
   }
 
   &:hover:where(:not(.toRemove)) {
-    background-color: green;
+    background-color: ${({ theme }) => theme.colors[500]};
     color: white;
   }
 
   &.toRemove > span:nth-of-type(2n) {
-    background-color: green;
+    background-color: ${({ theme }) => theme.colors[500]};
   }
 
   &.toRemove:hover > span:nth-of-type(2n) {
-    background-color: black;
+    background-color: ${({ theme }) => theme.colors[800]};
   }
 `;
 
