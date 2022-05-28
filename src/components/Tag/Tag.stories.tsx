@@ -13,12 +13,12 @@ const Template: ComponentStory<typeof Tag> = (args) => <Tag {...args} />;
 export const AddCategory = Template.bind({});
 AddCategory.args = {
   category: 'JavaScript',
-  onAdd: () => {},
+  onClick: () => {},
 };
 
 export const RemoveCategory = Template.bind({});
 RemoveCategory.args = {
   added: true,
   category: 'JavaScript',
-  onRemove: () => {},
+  onClick: () => {},
 };
