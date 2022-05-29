@@ -59,7 +59,7 @@ function Tag({ added = false, category, onClick }: TagProps) {
     <Button onClick={onClick} type='button' className={added ? 'toRemove' : ''}>
       <span>{category}</span>
       {added && (
-        <span>
+        <span title='Remove'>
           <IconRemove />
         </span>
       )}
