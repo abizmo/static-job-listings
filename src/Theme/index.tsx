@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
     height: 100vh;
   }
-  #root {
+  #root:only-child {
     display: grid;
     grid-template-rows: 1fr min-content;
     height: 100vh;
