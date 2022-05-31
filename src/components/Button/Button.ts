@@ -5,10 +5,10 @@ const Button = styled.button`
   background-color: transparent;
   color: ${({ theme }) => theme.colors[600]};
   cursor: pointer;
-  font-size: 1rem;
+  font-size: ${({theme}) => theme.fontSizes[600]};
   font-weight: 700;
   line-height: 1.1;
-  padding: 4px;
+  padding: ${({ theme }) => theme.sizes[4]};
   text-align: center;
 
   &:hover {
