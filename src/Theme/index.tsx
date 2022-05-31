@@ -15,12 +15,11 @@ const resetCss = css`
     margin: 0;
     padding: 0;
   }
-  h1 {
-    line-height: 1.1;
-  }
   body,
   button {
     font-family: ${theme.fontFamily};
+    font-weight: 700;
+    line-height: 1.1;
   }
 `;
 
@@ -29,8 +28,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${theme.colors[100]};
     color: ${theme.colors[500]};
-    font-weight: 500;
-    line-height: 1.5;
     height: 100vh;
   }
   #root:only-child {
