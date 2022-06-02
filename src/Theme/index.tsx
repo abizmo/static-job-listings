@@ -21,6 +21,9 @@ const resetCss = css`
     font-weight: 700;
     line-height: 1.1;
   }
+  button + button {
+    margin-left: 0;
+  }
 `;
 
 const GlobalStyle = createGlobalStyle`
