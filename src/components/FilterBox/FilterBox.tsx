@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from '../Button/Button';
 import Tag from '../Tag/Tag';
+import { Categories, Wrapper } from './FilterBox.style';
 
 interface FilterBoxProps {
   categories?: string[];
@@ -8,11 +10,14 @@ interface FilterBoxProps {
 function FilterBox({ categories }: FilterBoxProps): JSX.Element | null {
   if (!categories || !categories.length) return null;
   return (
-    <div aria-label='filter-box'>
-      {categories.map((category) => (
-        <Tag category={category} added onClick={() => {}} key={category} />
-      ))}
-    </div>
+    <Wrapper>
+      <Categories>
+        {categories.map((category) => (
+          <Tag category={category} added onClick={() => {}} key={category} />
+        ))}
+      </Categories>
+      <Button>Clear</Button>
+    </Wrapper>
   );
 }
 
