@@ -9,8 +9,8 @@ import { Job } from './JobCard.types';
 const jobs = data as Job[];
 
 describe('JobCard tset', () => {
-  test('should render company name and position', () => {
-    render(
+  test('should render and match snapshot', () => {
+    const { asFragment } = render(
       <Theme>
         <JobCard {...jobs[0]} />
       </Theme>
@@ -21,5 +21,9 @@ describe('JobCard tset', () => {
     expect(screen.getByText(jobs[0].postedAt)).toBeInTheDocument();
     expect(screen.getByText(jobs[0].contract)).toBeInTheDocument();
     expect(screen.getByText(jobs[0].location)).toBeInTheDocument();
+    expect(screen.getByText(jobs[0].languages[0])).toBeInTheDocument();
+    expect(screen.getByText(/new/i)).toBeInTheDocument();
+    expect(screen.getByText(/featured/i)).toBeInTheDocument();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

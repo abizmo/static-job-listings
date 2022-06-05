@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobCard tset should render and match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-ftvSup iyKVse feat"
+  >
+    <div
+      class="sc-iBkjds jMHGKi"
+    >
+      <img
+        alt="Photosnap"
+        class="sc-bczRLJ iQWCWt"
+        src="./images/photosnap.svg"
+      />
+      <div>
+        <div
+          class="sc-eCYdqJ jKdPYI"
+        >
+          <h2
+            class="sc-jSMfEi gtlYBX"
+          >
+            Photosnap
+          </h2>
+          <div>
+            <div
+              class="sc-gsnTZi dHCAfR"
+              type="new"
+            >
+              New!
+            </div>
+            <div
+              class="sc-gsnTZi elznlA"
+              type="feat"
+            >
+              Featured
+            </div>
+          </div>
+        </div>
+        <h3
+          class="sc-hKMtZM fBxJUe"
+        >
+          Senior Frontend Developer
+        </h3>
+        <ul
+          class="sc-gKXOVf fZpewS bullet"
+        >
+          <li>
+            1d ago
+          </li>
+          <li>
+            Full Time
+          </li>
+          <li>
+            USA Only
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul
+      class="sc-gKXOVf fZpewS"
+    >
+      <li>
+        <button
+          class="sc-dkzDqf iShTWr"
+          type="button"
+        >
+          <span>
+            Frontend
+          </span>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-dkzDqf iShTWr"
+          type="button"
+        >
+          <span>
+            Senior
+          </span>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-dkzDqf iShTWr"
+          type="button"
+        >
+          <span>
+            HTML
+          </span>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-dkzDqf iShTWr"
+          type="button"
+        >
+          <span>
+            CSS
+          </span>
+        </button>
+      </li>
+      <li>
+        <button
+          class="sc-dkzDqf iShTWr"
+          type="button"
+        >
+          <span>
+            JavaScript
+          </span>
+        </button>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
