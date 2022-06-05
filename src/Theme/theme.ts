@@ -15,7 +15,7 @@ const theme = {
     500: '.9375rem',
     600: '1rem',
     700: '1.125rem',
-    900: '1.375rem',
+    900: 'clamp(.9375rem, 3vw,1.375rem)',
   },
   fontFamily: "'League Spartan', sans-serif",
   sizes: {
