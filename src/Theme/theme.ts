@@ -1,4 +1,5 @@
 const theme = {
+  boxShadow: '12px 12px 16px hsl(180, 29%,50%, .16)',
   colors: {
     100: 'hsl(180, 52%, 96%)',
     200: 'hsl(180, 31%, 95%)',
