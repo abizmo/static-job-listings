@@ -54,6 +54,16 @@ export const List = styled.ul`
   }
 `;
 
+export const CardInfo = styled.div`
+  display: flex;
+  gap: ${({ theme }) => theme.sizes[24]};
+  &>div {
+    display: flex;
+    flex-direction: column;
+    gap: ${({ theme }) => theme.sizes[16]};
+  },
+`;
+
 export const Wrapper = styled.div(({ theme }) => ({
   backgroundColor: theme.colors.white,
   borderRadius: theme.sizes[4],
@@ -63,11 +73,14 @@ export const Wrapper = styled.div(({ theme }) => ({
   gap: theme.sizes[16],
   padding: `${theme.sizes[32]} ${theme.sizes[24]} ${theme.sizes[24]}`,
   position: 'relative',
-  overflow: 'hidden',
-  '&>div': {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: theme.sizes[16],
+  '& img': {
+    position: 'absolute',
+    bottom: '100%',
+    transform: 'translateY(50%)',
+    '@media(min-width: 50rem)': {
+      position: 'static',
+      transform: 'translateY(0%)',
+    },
   },
   '&>ul': {
     borderTop: `1px solid ${theme.colors[600]}`,
@@ -75,6 +88,7 @@ export const Wrapper = styled.div(({ theme }) => ({
   },
   '&.feat::before': {
     backgroundColor: theme.colors[500],
+    borderRadius: `${theme.sizes[4]} 0 0 ${theme.sizes[4]}`,
     content: '""',
     height: '100%',
     left: 0,
