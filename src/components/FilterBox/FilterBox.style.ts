@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { transparency } from '../../helpers/transparency';
 
 export const Wrapper = styled.div.attrs({
   'aria-label': 'filter-box',
@@ -7,8 +6,7 @@ export const Wrapper = styled.div.attrs({
   align-items: center;
   background-color: ${({ theme }) => theme.colors.white};
   border-radius: ${({ theme }) => theme.sizes[4]};
-  box-shadow: 12px 12px 16px
-    ${({ theme }) => transparency(theme.colors[500], 0.16)};
+  box-shadow: ${({ theme }) => theme.boxShadow};
   display: flex;
   justify-content: space-between;
   padding: ${({ theme }) => theme.sizes[20]};
