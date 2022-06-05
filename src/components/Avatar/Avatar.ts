@@ -1,13 +1,6 @@
 import styled from 'styled-components';
 
-type AvatarProps = {
-  $name: string;
-};
-
-const Avatar = styled.img.attrs<AvatarProps>(({ $name }) => ({
-  src: `./images/${$name}.svg`,
-  alt: `${$name}`,
-}))<AvatarProps>`
+const Avatar = styled.img`
   height: 48px;
   widht: 48px;
 

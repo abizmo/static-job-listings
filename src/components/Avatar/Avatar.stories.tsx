@@ -12,5 +12,6 @@ const Template: ComponentStory<typeof Avatar> = (args) => <Avatar {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  $name: 'account',
+  alt: 'account',
+  src: './images/account.svg',
 };
