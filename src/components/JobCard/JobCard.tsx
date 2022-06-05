@@ -1,7 +1,7 @@
 import React from 'react';
 import Badge from '../Badge/Badge';
 import Tag from '../Tag/Tag';
-import { List, Wrapper } from './JobCard.style';
+import { Company, Header, List, Title, Wrapper } from './JobCard.style';
 
 import { Job } from './JobCard.types';
 
@@ -9,13 +9,15 @@ function JobCard(job: Job) {
   return (
     <Wrapper className={job.featured ? 'feat' : ''}>
       <div>
-        <div>
-          <h2>{job.company}</h2>
-          {job.new && <Badge type='new' />}
-          {job.featured && <Badge type='feat' />}
-        </div>
-        <h3>{job.position}</h3>
-        <List>
+        <Header>
+          <Company>{job.company}</Company>
+          <div>
+            {job.new && <Badge type='new' />}
+            {job.featured && <Badge type='feat' />}
+          </div>
+        </Header>
+        <Title>{job.position}</Title>
+        <List className='bullet'>
           <li>{job.postedAt}</li>
           <li>{job.contract}</li>
           <li>{job.location}</li>
