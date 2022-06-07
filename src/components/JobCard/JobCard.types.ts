@@ -16,4 +16,5 @@ export interface Job {
   location: string;
   languages: string[];
   tools: string[];
+  onFilter: (x: string) => void;
 }
