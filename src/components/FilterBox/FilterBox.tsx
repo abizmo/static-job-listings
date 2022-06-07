@@ -5,9 +5,13 @@ import { Categories, Wrapper } from './FilterBox.style';
 
 interface FilterBoxProps {
   categories?: string[];
+  onClear: () => void;
 }
 
-function FilterBox({ categories }: FilterBoxProps): JSX.Element | null {
+function FilterBox({
+  categories,
+  onClear,
+}: FilterBoxProps): JSX.Element | null {
   if (!categories || !categories.length) return null;
   return (
     <Wrapper>
@@ -16,7 +20,7 @@ function FilterBox({ categories }: FilterBoxProps): JSX.Element | null {
           <Tag category={category} added onClick={() => {}} key={category} />
         ))}
       </Categories>
-      <Button>Clear</Button>
+      <Button onClick={onClear}>Clear</Button>
     </Wrapper>
   );
 }

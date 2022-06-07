@@ -9,6 +9,7 @@ export const Wrapper = styled.div.attrs({
   box-shadow: ${({ theme }) => theme.boxShadow};
   display: flex;
   justify-content: space-between;
+  margin-top: -40px;
   padding: ${({ theme }) => theme.sizes[20]};
 
   @media (min-width: 50rem) {
