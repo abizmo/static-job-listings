@@ -17,7 +17,10 @@ function JobCard(job: Job) {
   return (
     <Wrapper className={job.featured ? 'feat' : ''}>
       <CardInfo>
-        <Avatar alt={job.company} src={job.logo} />
+        <Avatar
+          alt={job.company}
+          src={`${process.env.PUBLIC_URL}/${job.logo}`}
+        />
         <div>
           <Header>
             <Company>{job.company}</Company>

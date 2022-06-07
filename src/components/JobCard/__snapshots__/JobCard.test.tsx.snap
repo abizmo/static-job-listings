@@ -11,7 +11,7 @@ exports[`JobCard tset should render and match snapshot 1`] = `
       <img
         alt="Photosnap"
         class="sc-bczRLJ iQWCWt"
-        src="./images/photosnap.svg"
+        src="/./images/photosnap.svg"
       />
       <div>
         <div
