@@ -25,6 +25,23 @@ function Jobs() {
     setFilters((prev) => [...prev, category]);
   };
 
+  const filterJobs = (job: Job) => {
+    if (filters.length === 0) return true;
+    if (
+      filters.every((c) =>
+        [
+          job.role,
+          job.level,
+          job.contract,
+          ...job.languages,
+          ...job.tools,
+        ].includes(c)
+      )
+    )
+      return true;
+    return false;
+  };
+
   return (
     <>
       <Header />
@@ -35,7 +52,7 @@ function Jobs() {
           onRemove={handleRemoveFilter}
         />
         <JobList>
-          {jobs.map((job) => (
+          {jobs.filter(filterJobs).map((job) => (
             <li key={job.id}>
               <JobCard {...job} onFilter={handleAddFilter} />
             </li>
