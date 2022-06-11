@@ -1,0 +1,1029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and matchSnapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-breuTD xcGZD"
+  />
+  <main
+    class="sc-crXcEl UEsKr"
+  >
+    <ul
+      class="sc-evZas edXLvx"
+    >
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo feat"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Photosnap"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/photosnap.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Photosnap
+                </h2>
+                <div>
+                  <div
+                    class="sc-gKXOVf jrfPsH"
+                    type="new"
+                  >
+                    New!
+                  </div>
+                  <div
+                    class="sc-gKXOVf gcDJjS"
+                    type="feat"
+                  >
+                    Featured
+                  </div>
+                </div>
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Senior Frontend Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  1d ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  USA Only
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Senior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  HTML
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  CSS
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo feat"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Manage"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/manage.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Manage
+                </h2>
+                <div>
+                  <div
+                    class="sc-gKXOVf jrfPsH"
+                    type="new"
+                  >
+                    New!
+                  </div>
+                  <div
+                    class="sc-gKXOVf gcDJjS"
+                    type="feat"
+                  >
+                    Featured
+                  </div>
+                </div>
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Fullstack Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  1d ago
+                </li>
+                <li>
+                  Part Time
+                </li>
+                <li>
+                  Remote
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Fullstack
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Midweight
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Python
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  React
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Account"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/account.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Account
+                </h2>
+                <div>
+                  <div
+                    class="sc-gKXOVf jrfPsH"
+                    type="new"
+                  >
+                    New!
+                  </div>
+                </div>
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Junior Frontend Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  2d ago
+                </li>
+                <li>
+                  Part Time
+                </li>
+                <li>
+                  USA Only
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  React
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Sass
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="MyHome"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/myhome.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  MyHome
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Junior Frontend Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  5d ago
+                </li>
+                <li>
+                  Contract
+                </li>
+                <li>
+                  USA Only
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  CSS
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Loop Studios"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/loop-studios.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Loop Studios
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Software Engineer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  1w ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  Worldwide
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Fullstack
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Midweight
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Ruby
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Sass
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="FaceIt"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/faceit.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  FaceIt
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Junior Backend Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  2w ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  UK Only
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Backend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Ruby
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  RoR
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Shortly"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/shortly.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Shortly
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Junior Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  2w ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  Worldwide
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  HTML
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Sass
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Insure"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/insure.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Insure
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Junior Frontend Developer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  2w ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  USA Only
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Vue
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Sass
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="Eyecam Co."
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/eyecam-co.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  Eyecam Co.
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Full Stack Engineer
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  3w ago
+                </li>
+                <li>
+                  Full Time
+                </li>
+                <li>
+                  Worldwide
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Fullstack
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Midweight
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Python
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Django
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-iqcoie lmcQQo"
+        >
+          <div
+            class="sc-kDDrLX fIzIPu"
+          >
+            <img
+              alt="The Air Filter Company"
+              class="sc-jSMfEi kVyhZw"
+              src="/./images/the-air-filter-company.svg"
+            />
+            <div>
+              <div
+                class="sc-ftvSup hNwwWO"
+              >
+                <h2
+                  class="sc-papXJ dgNXxK"
+                >
+                  The Air Filter Company
+                </h2>
+                <div />
+              </div>
+              <h3
+                class="sc-iBkjds kFGuji"
+              >
+                Front-end Dev
+              </h3>
+              <ul
+                class="sc-jqUVSM fFLhCP bullet"
+              >
+                <li>
+                  1mo ago
+                </li>
+                <li>
+                  Part Time
+                </li>
+                <li>
+                  Worldwide
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            class="sc-jqUVSM fFLhCP"
+          >
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Frontend
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Junior
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  JavaScript
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  React
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="sc-dkzDqf iShTWr"
+                type="button"
+              >
+                <span>
+                  Sass
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer
+    class="sc-bczRLJ bLquij"
+  >
+    Challenge by 
+    <a
+      href="https://www.frontendmentor.io/?ref=challenge"
+      rel="noreferrer"
+      target="_blank"
+    >
+      Frontend Mentor
+    </a>
+    Coded by 
+    <a
+      href="https://www.abizmo.dev"
+    >
+      Abián Izquierdo
+    </a>
+    .
+  </footer>
+</DocumentFragment>
+`;

@@ -13,11 +13,14 @@ import {
 
 import { Job } from './JobCard.types';
 
-function JobCard(job: Job) {
+function JobCard({ onFilter, ...job }: Job) {
   return (
     <Wrapper className={job.featured ? 'feat' : ''}>
       <CardInfo>
-        <Avatar alt={job.company} src={job.logo} />
+        <Avatar
+          alt={job.company}
+          src={`${process.env.PUBLIC_URL}/${job.logo}`}
+        />
         <div>
           <Header>
             <Company>{job.company}</Company>
@@ -36,19 +39,19 @@ function JobCard(job: Job) {
       </CardInfo>
       <List>
         <li>
-          <Tag category={job.role} onClick={() => {}} />
+          <Tag category={job.role} onClick={() => onFilter(job.role)} />
         </li>
         <li>
-          <Tag category={job.level} onClick={() => {}} />
+          <Tag category={job.level} onClick={() => onFilter(job.level)} />
         </li>
         {job.languages.map((lang) => (
           <li key={lang}>
-            <Tag category={lang} onClick={() => {}} />
+            <Tag category={lang} onClick={() => onFilter(lang)} />
           </li>
         ))}
         {job.tools.map((tool) => (
           <li key={tool}>
-            <Tag category={tool} onClick={() => {}} />
+            <Tag category={tool} onClick={() => onFilter(tool)} />
           </li>
         ))}
       </List>
